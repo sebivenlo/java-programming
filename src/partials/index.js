@@ -25,6 +25,7 @@ import { OutboundLink } from "gatsby-plugin-google-analytics"
 import Test from "./Test"
 import PagesInThisSection from "./PagesInThisSection"
 import ProgrammingExercise from "./ProgrammingExercise"
+import TryMeExercise from "./TryMeExercise"
 import TextBox from "./TextBox"
 import SampleData from "./SampleData"
 import SampleOutput from "./SampleOutput"
@@ -72,6 +73,7 @@ const mapping = {
   test: Test,
   "pages-in-this-section": PagesInThisSection,
   "programming-exercise": ProgrammingExercise,
+  "try-me-exercise": TryMeExercise,
   "text-box": TextBox,
   "sample-data": SampleData,
   "sample-output": SampleOutput,

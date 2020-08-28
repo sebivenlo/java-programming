@@ -174,7 +174,7 @@ public class Example {
 
 <youtube id="-DzOKI6iH5w"></youtube>
 
-<programming-exercise name='Ada Lovelace' tmcname='osa01-Osa01_02.AdaLovelace'>
+<try-me-exercise name='Ada Lovelace' tmcname='osa01-Osa01_02.AdaLovelace' class='try-me'>
 
 Tehtäväpohjassa on seuraavanlainen ohjelmarunko:
 
@@ -196,21 +196,21 @@ Ada Lovelace
 
 Kun olet tehnyt tehtävän ja huomaat, että ohjelma tulostaa halutun merkkijonon, palauta tehtävä TMC:lle. Tutustu tämän jälkeen halutessasi lisää [Ada Lovelaceen](https://en.wikipedia.org/wiki/Ada_Lovelace), joka oli yksi ensimmäisistä ohjelmoijista.
 
-</programming-exercise>
+</try-me-exercise>
 -->
 
 Here's the second programming exercise of this course. If you'd like, you can watch this video on how to solve the exercise first:
 
 <youtube id="-DzOKI6iH5w"></youtube>
 
-<programming-exercise name='Ada Lovelace' tmcname='part01-Part01_02.AdaLovelace'>
+<try-me-exercise name='Ada Lovelace' tmcname='part01-Part01_02.AdaLovelace'>
 
 The exercise template has the following boilerplate code:
 
 ```java
 public class AdaLovelace {
     public static void main(String[] args) {
-        // Write your program here
+        // Write your program code here
 
     }
 }
@@ -226,7 +226,7 @@ Ada Lovelace
 
 Once you've finished the exercise and see that it prints the correct string, return the exercise to the TMC server. After that, you can read more about [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace), who was one of the first programmers.
 
-</programming-exercise>
+</try-me-exercise>
 
 <!-- <text-box variant='hint' name='Ohjelman suorittaminen'>
 

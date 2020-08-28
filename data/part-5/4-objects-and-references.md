@@ -8,7 +8,7 @@ hidden: false
 
 <!-- <text-box variant='learningObjectives' name='Oppimistavoitteet'> -->
 
-<text-box variant='learningObjectives' name='Learning Objectives'>
+<text-box variant='learningObjectives' name='Learning objectives'>
 
 
 <!-- - Kertaat luokkien ja olioiden toimintaa. -->
@@ -1770,7 +1770,7 @@ public String toString() {
 
 <!-- Kokeillaan miten uusittu Henkilöluokka toimii. -->
 
-Let's see how the updated Person class works.
+Let's see how the updated Person class works. //'
 
 <!-- ```java
 Paivays paivays = new Paivays(1, 1, 780);
@@ -1819,7 +1819,7 @@ Both variables contain a reference to an object. Therefore a person object conta
 
 <!-- Pääohjelmalla on nyt siis langan päässä kaksi Henkilö-olioa. Henkilöllä on nimi ja syntymäpäivä. Koska molemmat ovat olioita, ovat ne henkilöllä langan päässä. -->
 
-So the main program is connected to two Person objects by strands. A person has a name and a birthday. Since both variables are objects, these attributes exist at the other ends of the strands.
+So the main program has is connected to two Person objects by strands. A person has a name and a birthday. Since both variables are objects, these attributes exist at the other ends of the strands.
 
 
 <!-- Syntymäpäivä vaikuttaa hyvältä laajennukselta Henkilö-luokkaan. Totesimme aiemmin, että oliomuuttuja `ika` voidaan laskea syntymäpäivästä, joten siitä hankkiuduttiin eroon. -->
@@ -2437,8 +2437,8 @@ Apartment manhattanStudioApt = new Apartment(1, 16, 5500);
 Apartment atlantaTwoBedroomApt = new Apartment(2, 38, 4200);
 Apartment bangorThreeBedroomApt = new Apartment(3, 78, 2500);
 
-System.out.println(manhattanStudioApt.priceDifference(atlantaTwoBedroomApt));  //71600
-System.out.println(bangorThreeBedroomApt.priceDifference(atlantaTwoBedroomApt));   //35400
+System.out.println(manhattanSingleRoomApt.priceDifference(atlantaTwoRoomApt));  //71600
+System.out.println(bangorThreeRoomApt.priceDifference(atlantaTwoRoomApt));   //35400
 ```
 
 
@@ -3780,7 +3780,7 @@ Implement the method `public void advance(int howManyDays)` that moves the date 
 
 <!-- Lisätään `Paivays`-olioon mahdollisuus edistää aikaa. Tee oliolle metodi `Paivays paivienPaasta(int paivia)`, joka luo **uuden** `Paivays`-olion, jonka päiväys on annetun päivien lukumäärän verran suurempi kuin oliolla, jolle sitä kutsuttiin. Voit edelleen olettaa, että jokaisessa kuukaudessa on 30 päivää. Huomaa, että vanhan päiväysolion on pysyttävä muuttumattomana! -->
 
-Let's add the possibility to advance time to the `SimpleDate` class. Create the method `public SimpleDate afterNumberOfDays(int days)` for the class. It creates a **new** `SimpleDate` object whose date is the specified number of days greater than the object that the method was called on. You may still assume that each month has 30 days. Notice that the old date object must remain unchanged!
+Let's add the possibility to advance time to the `SimpleDate` class. Create the method `SimpleDate afterNumberOfDays(int days)` for the class. It creates a **new** `SimpleDate` object whose date is the specified number of days greater than the object that the method was called on. You may still assume that each month has 30 days. Notice that the old date object must remain unchanged!
 
 <!-- Koska metodissa on luotava **uusi olio**, tulee rungon olla suunnilleen seuraavanlainen: -->
 
