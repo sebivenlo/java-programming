@@ -347,7 +347,7 @@ ohjelma
 
 </programming-exercise> -->
 
-<programming-exercise name='Once Upon a Time' tmcname='part01-Part01_03.OnceUponATime'>
+<try-me-exercise name='Once Upon a Time' tmcname='part01-Part01_03.OnceUponATime'>
 
 The exercise template comes with the following template:
 
@@ -370,7 +370,7 @@ a program
 
 </sample-output>
 
-</programming-exercise>
+</try-me-exercise>
 
 <!-- <text-box variant='hint' name='Lyhenne "sout"'>
 

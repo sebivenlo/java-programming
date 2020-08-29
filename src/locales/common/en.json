@@ -21,6 +21,7 @@
     "pleaseLogin":"You are not logged in. Some parts of the material are only for logged in users. You can log in here: ",
     "inThisSection":"In this part:" ,
     "programmingExercise":"Programming exercise:",
+    "tryMeExercise":"Try Me Programming exercise:",
     "moodleExercise": "Moodle exercise:",
     "sqlTrainerExercise": "SQL trainer exercise:",
     "points":"Points",

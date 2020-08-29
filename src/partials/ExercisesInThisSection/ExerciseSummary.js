@@ -23,6 +23,9 @@ const ExerciseSummary = ({ exercise, index, quizIdToTitle, t }) => {
   if (exercise.type === "programming-exercise") {
     description = `${t("programmingExercise")} ${exercise.id}`
   }
+  if (exercise.type === "try-me-exercise") {
+    description = `${t("tryMeExercise")} ${exercise.id}`
+  }
   if (exercise.type === "crowdsorcerer") {
     description = "Crowdsorcerer"
   }

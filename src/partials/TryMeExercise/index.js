@@ -48,7 +48,7 @@ const Header = styled.div`
   font-weight: normal;
   padding 1rem 0;
   border-bottom: 1px solid #f7f7f9;
-  background-color: #660066;
+  background-color: #668800;
   display: flex;
   flex-direction: row;
   align-items: 0;
@@ -213,13 +213,11 @@ class TryMeExercise extends React.Component {
     )
 
     return (
-      <TryMeExerciseWrapper
-        id={normalizeExerciseId(`programming-exercise-${name}`)}
-      >
+      <TryMeExerciseWrapper id={normalizeExerciseId(`try-me-exercise-${name}`)}>
         <Header>
           <StyledIcon icon={icon} size="2x" />
           <HeaderTitleContainer>
-            <HeaderMuted>{this.props.t("programmingExercise")} </HeaderMuted>
+            <HeaderMuted>{this.props.t("tryMeExercise")} </HeaderMuted>
             <h3>{name}</h3>
           </HeaderTitleContainer>
 
@@ -321,6 +319,4 @@ class TryMeExercise extends React.Component {
   }
 }
 
-export default withTranslation("common")(
-  withSimpleErrorBoundary(TryMeExercise),
-)
+export default withTranslation("common")(withSimpleErrorBoundary(TryMeExercise))
